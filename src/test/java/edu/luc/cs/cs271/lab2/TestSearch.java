@@ -15,6 +15,14 @@ public class TestSearch {
   }
 
   // TODO makeListFixture
+  /*List<Team> makeListFixture(final int size) {
+    final List<Team> list = Arrays.asList(makeArrayFixture);
+    for (Team team: list) {
+      final String s = Integer.toString(i);
+      array[i] = new Team("Team " + s, "Coach " + s, i * 100 + 50);
+    }
+    return list;
+  }*/
 
   @Test
   public void testFindPositionArray0() {

@@ -32,3 +32,6 @@ dependencies {
 tasks.withType(JavaCompile) { 
     options.compilerArgs << "-Xlint:all" 
 }
+run {
+    standardInput = System.in
+    }
